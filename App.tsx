@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
 import { AuthProvider } from './AuthContext'; 
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 import Home from './pages/Home';
 import Reader from './pages/Reader';
 import Translator from './pages/Translator';
